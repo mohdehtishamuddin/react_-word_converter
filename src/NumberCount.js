@@ -95,7 +95,8 @@ function NumberCount() {
 
   return (
     <div>
-      <h1>Please Enter Only Number</h1>
+        <div className='h1'>
+      <h1>Please Enter Only Number</h1></div>
       <div className='number'>
       <input type="number" className='input' name="number" placeholder=" Please Input Number Here" onKeyUp={handleChange} />
       </div>

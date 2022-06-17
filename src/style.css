@@ -4,10 +4,10 @@ body{
     /* background-color: brown; */
     width: 100%;
     background-color: #FBDA61;
-background-image: linear-gradient(45deg, #313aed 0%, #dcf562 100%);
+background-image: linear-gradient(45deg, #d431ed 0%, #dcf562 100%);
 animation: change-background 6s linear infinite alternate-reverse;
 }
-@keyframes change-background {
+/* @keyframes change-background {
     0% {
         background-image: linear-gradient(45deg, #fa9292d7 0%, #fd8ba1c8 100%);
     }
@@ -17,42 +17,57 @@ animation: change-background 6s linear infinite alternate-reverse;
     100% {
         background-image: linear-gradient(45deg, #f50c0c9b 0%, #40c8ea 100%);
     }
-  }
+  } */
 .number{
   text-align: center;  
     
 }
-.input:hover{
+.input{
     width: 20%;
-    height: 60px;
+    height: 70px;
     text-align: center;
-   /* background-color:  #22ff2a; */
+
     background-image: linear-gradient(45deg, #ff7deeec 0%, #ff9edfb2 100%);
    border: 15px solid rgb(22, 173, 215); 
-   border-radius: 10px;  
+   border-radius: 10px; 
+   margin-top: 40px; 
+   font-size: 20px;
   /* background-color: #ff00b3; */
 }
-h1{
+.input:hover{
+    background-color: #d40e0e9b;
+}
+/* h1{
     
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* background-color:  #22a3ff; */
+ 
     background-image: linear-gradient(45deg, #0add73 0%, #ef9592 100%);
     width: 40%;
     margin-left: 450px;
     height: 70px;
-text-align: center;
-margin-top: 20px;
-border: 5px solid;
-box-shadow: inset;
-  
-    
+ text-align: center;
+ margin-top: 20px;
+ border: 5px solid;    
+} */
+.h1{
+    margin: auto;
+    text-align:center;
+    border: 10px solid black;
+    width: 40%;
+    height: 70px;
+    background-image: linear-gradient(45deg, #ff7cb1bc 0%, #fa49a2b2 100%);
+   color: white
 }
 .count{
     text-align: center;
-   padding: 30px;
-   font-size: 40px;
-   color: rgb(255, 228, 77);
+    margin-top: 30px;
+   padding: 40px;
+   font-size: 30px;
+   color: rgb(245, 214, 38);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 60%;
+  border: 5px solid rgb(0, 0, 0);
+  margin-left: 250px;
 }
 
 
